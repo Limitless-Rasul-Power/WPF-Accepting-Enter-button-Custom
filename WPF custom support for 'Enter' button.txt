@@ -1,0 +1,55 @@
+ private void TxtBxMessage_KeyUp(object sender, KeyEventArgs e)
+        {
+            #region CustomSupportForEnterWorks
+
+            //if (e.Key == Key.Enter)
+            //{
+            //    int cursorLocation = TxtBxMessage.SelectionStart + TxtBxMessage.SelectionLength;
+
+            //    StringBuilder sb = new StringBuilder();
+
+            //    if (cursorLocation >= TxtBxMessage.Text.Length)
+            //    {
+            //        if (TxtBxMessage.SelectionLength > 0)
+            //        {
+            //            sb.Append(TxtBxMessage.Text.Substring(0, TxtBxMessage.SelectionStart));
+            //            sb.AppendLine();
+            //            TxtBxMessage.Text = sb.ToString();
+            //        }
+            //        else
+            //        {
+            //            TxtBxMessage.Text += Environment.NewLine;
+            //        }
+
+            //        TxtBxMessage.SelectionStart = TxtBxMessage.Text.Length;
+            //    }
+            //    else
+            //    {
+
+            //        if (TxtBxMessage.SelectionLength > 0)
+            //        {
+            //            sb.Append(TxtBxMessage.Text.Substring(0, TxtBxMessage.SelectionStart));
+
+            //        }
+            //        else
+            //        {                        
+            //            if (cursorLocation != 0)
+            //                sb.Append(TxtBxMessage.Text.Substring(0, cursorLocation));              
+            //        }
+
+
+            //        sb.AppendLine();
+
+            //        int focusOfCursor = sb.Length;
+
+            //        sb.Append(TxtBxMessage.Text.Substring(cursorLocation));
+
+
+            //        TxtBxMessage.Text = sb.ToString();
+            //        TxtBxMessage.SelectionStart = focusOfCursor;
+            //    }
+
+            //}
+
+            #endregion
+        }
